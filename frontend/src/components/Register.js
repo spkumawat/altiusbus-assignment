@@ -25,6 +25,8 @@ const Register = () => {
     }
   };
 
+    console.log("registered succesfully") 
+
   return (
     <form onSubmit={onSubmit}>
         {/* basic validation on froentned side we can add mpore like on particualr alophamueric numbers and mopre on password what to accept or what to not */}
