@@ -22,7 +22,7 @@ const App = () => {
             <Switch>
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
-          
+                //unable to do full beacuse of lld and proper hld nwo this basic flowso done quick
             </Switch>
           </section>
         </div>
