@@ -16,7 +16,7 @@ const Login = () => {
       console.error("error",err);
     }
   };
-
+   console.log("fetched data successfully") 
   return (
     <form onSubmit={onSubmit}>
       <input type="email" name="email" value={email} onChange={onChange} required />
