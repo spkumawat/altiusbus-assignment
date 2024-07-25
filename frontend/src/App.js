@@ -10,6 +10,8 @@ import Login from './components/Login';
 import './App.css';
 
 const App = () => {
+
+  console.log("its app file")
   return (
     <Provider store={store}>
       <Router>
@@ -20,6 +22,7 @@ const App = () => {
             <Switch>
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
+          
             </Switch>
           </section>
         </div>
